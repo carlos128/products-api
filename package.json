@@ -1,16 +1,15 @@
 {
   "name": "products-api",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "license": "MIT",
   "scripts": {
     "start": "nx serve",
     "build": "nx build",
     "test": "nx test",
-    "release":"standard-version",
-    "release:patch":"standard-version --release-as patch",
-    "release:minor":"standard-version --release-as minor",
-    "release:major":"standard-version --release-as major"
-
+    "release": "standard-version",
+    "release:patch": "standard-version --release-as patch",
+    "release:minor": "standard-version --release-as minor",
+    "release:major": "standard-version --release-as major"
   },
   "private": true,
   "dependencies": {
